@@ -1,0 +1,20 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+
+
+module counter(input a , output reg[1:0] count
+
+    );
+   
+    initial 
+    count=0;
+   
+    always @(posedge a)
+    begin 
+    count=count+1;
+    end 
+    
+    
+    
+endmodule
